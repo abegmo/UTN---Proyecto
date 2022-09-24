@@ -1,0 +1,263 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+}
+
+:root {
+      --darkBlue: #2E64A2;
+      --lightBlue:#6EA9ED;
+}
+
+html {
+      font-size: 62.5%;
+      font-family: "DM Sans", sans-serif;
+      max-width: 100%;
+
+}
+
+/* HEADER */
+
+header{
+      display: flex;
+      width: 100%;
+      height: 90px;
+      background-color: var(--darkBlue);
+      align-items: center;
+}
+
+
+
+header figure img{
+      margin-left: 30px;
+      width: 30px;
+      height: 30px;
+      
+    
+}
+
+header h1{
+      margin-left: 10px;
+      align-self: center;
+      font-size: 2.5rem;
+      color: white;
+}
+
+/* NAV */
+     
+nav{
+      display: flex;
+      width: 100%;
+      height: 30px;
+      background-color: var(--lightBlue);
+     
+}
+
+nav ul{
+      width: 100%;
+      /* align-items: center; */
+}
+
+nav ul li {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      width: 90%;
+      height: 100%;
+}
+
+nav ul li a{
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      width: 180px;
+}
+
+/* MAIN */
+
+main{
+      width: 100%;
+      margin-top: 25px;
+}
+
+main .heroImage{
+      margin: 0 auto;
+      width: 90%;
+}
+
+main .heroImage img{
+      width: 100%;
+}
+
+/* MAIN CONTENT */
+
+
+main .home-content{
+display: flex;
+justify-content: space-around;
+width:90%;
+margin: 25px 75px;
+
+}
+main article{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+}
+
+main article h2{
+      align-self: center;
+      font-size: 2.5rem;
+}
+
+main article p{
+      padding-top: 10px;
+      font-size: 2.0rem;
+
+
+}
+
+/* ASIDE */
+
+main .home-content aside{
+      width: 30%;
+}
+
+main .home-content aside h2{
+      align-self: center;
+      font-size: 2.5rem;
+}
+main .home-content aside p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+      height: 50px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: gray;
+}
+
+/* Footer */
+
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 50px;
+font-size: 1.5rem;
+font-weight: bold;
+background-color: gray;
+}
+
+
+/* NOSOTROS HISTORIA */
+
+.nosotros{
+
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 25px auto;
+      
+}
+
+.nosotros h2{
+      margin-left: 50px;
+      font-size: 2.5rem;
+}
+
+.nosotros p{
+      margin: 25px auto;
+      width: 90%;
+      font-size: 1.5rem;
+}
+
+/* NOSOTROS STAFF */
+
+.nosotros .container{
+      
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+.nosotros .container .card{
+      border: 1px solid gray;
+      border-radius: 5px;
+      width: 17%;
+      height: 400px;
+      margin: 10px;
+      padding: 5px;
+}
+
+.container .card-image{
+      background-color: aqua;
+      height: 170px;
+      margin-bottom: 15px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:top;
+      border-radius: 15px;
+      
+}
+
+.container .card .title-card{
+      text-align: center;
+      margin-left: 0;
+}
+
+.container .card-image {
+      background-image: url('./assets/p1.jpg');
+}
+
+
+
+/* SERVICIOS */
+
+.servicios{
+
+      width: 100%;
+
+}
+
+.servicios .servicios-card{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      margin: 30px auto;
+      border: 1px solid grey;
+      border-radius: 15px;
+      padding: 30px;
+}
+
+
+.servicios .servicios-content p{
+      margin-top: 5px;
+      border-top: 1px solid black;
+
+}
+
+.servicios .servicios-content{
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+}
+
+.servicios .servicios-card img{
+      width: 30%;
+      height: 200px;
+      border-radius: 15px;
+      margin-left: 30px;
+}
+
+.servicios .ferro img{
+      margin-left: 0;
+      margin-right: 15px;
+}
